@@ -1,8 +1,7 @@
-Simple IVR
-==========
+Dial Alt-Fest
+=============
 
-This repro demonstrates just how easy it is to get up and running with Twilio voice.
-To create a simple, but feature rich, IVR application.
+This repro is a phone powered jukebox that plays random tracks for each caller. Created to help support Alt-Fest - buy tickets here: http://www.alt-fest.com/index.html
 
 You can read the Twilio "HowTo" doc on IVR's here: https://www.twilio.com/docs/howto/ivrs-the-basics
 
@@ -15,18 +14,12 @@ Preparation
 
 Creating the IVR App
 ====================
-<ul>
-<li>Use the XML document contained in this repo. You only need to make minor edits to the XML.</li>
-<li>Line 3: Set the correct path for your welcome recording used in the <Play> verb
-<li>Line 5 - 12: Edit the content in the <Say> verbs to meet your requirements
-<li>Upload to your server</li>
-</ul>
+
+In the .php file just...
 
 <ul>
-<li>In the .php file just...</li>
-<li>Line 43 Set the correct path for your recording if used in the <Play> verb
-<li>Line 49 Add your Twilio number
-<li>Upload to your server</li>
+<li>Line 7 Set the correct path to your tracks</li>
+<li>Line 24 Add your Twilio number
 </ul>
 
 
@@ -42,13 +35,6 @@ Configuring your Twilio number
 
 That's it you're done!
 
-Retrieving Call Recordings
-=========================
-<ul>
-<li>You can retrive call recordings from your Twilio account.</li>
-<li>Sign into your account on http://twilio.com and click on 'Logs' in the navigation at the top of the page.</li>
-<li>Then click on 'Recordings'</li>
-</ul>
 
 Useful Links
 ============
