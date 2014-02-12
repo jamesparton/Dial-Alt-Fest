@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Say voice="alice" language="en-GB">Welcome to Aolt Fest</Say>
+	<Gather action="handle-user-input.php" numDigits="1">
+		<Say voice="alice" language="en-GB">Press 1 to hear tracks from our headliners</Say>
+		<Say voice="alice" language="en-GB">Press 2 to get more info in a text message</Say>
+	</Gather>
+	<!-- If customer doesn't input anything, prompt and try again. -->
+	<Say voice="alice" language="en-GB">Sorry, I didn't get your response.</Say>
+	<Redirect>handle-incoming-call.xml</Redirect>
+</Response>
