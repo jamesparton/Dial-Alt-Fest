@@ -21,7 +21,7 @@
 
 	if ($user_pushed == 2)
 	{
-		echo '<Sms from="+442033226213">Alt Fest is 15th-17th August 2014 in Kettering, UK. Visit http://www.alt-fest.com or follow @AltFestival for more info.</Sms>';
+		echo '<Sms from="+44xxxxxxxxxx">Alt Fest is 15th-17th August 2014 in Kettering, UK. Visit http://www.alt-fest.com or follow @AltFestival for more info.</Sms>';
 		echo '<Say voice="alice" language="en-GB">Your text is on the way!</Say>';
 		echo '<Redirect>handle-incoming-call.xml</Redirect>';
 	}
